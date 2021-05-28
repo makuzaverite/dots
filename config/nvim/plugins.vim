@@ -26,8 +26,6 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'mattn/emmet-vim'                  " Emmet support
 Plug 'wakatime/vim-wakatime'
-Plug 'neovim/nvim-lspconfig'            " Neovim lsp 
-Plug 'hrsh7th/nvim-compe'               " Auto-completion plugin for nvim
 
 
 call plug#end()
