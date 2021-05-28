@@ -7,6 +7,7 @@
     "json",
     "javascriptreact",
     "typescript.tsx",
-    "graphql"
+    "graphql",
+    "prisma"
   ]
 }
