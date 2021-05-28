@@ -26,7 +26,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'mattn/emmet-vim'                  " Emmet support
 Plug 'wakatime/vim-wakatime'
-
+Plug 'neoclide/jsonc.vim'               " Lanugage support for json
 
 call plug#end()
 
