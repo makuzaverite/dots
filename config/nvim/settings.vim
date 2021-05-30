@@ -28,5 +28,3 @@ set cmdheight=2             " Better display messages
 set shortmess+=c            " don't give |ins-completion-menu| messages.
 colorscheme blackbird       " The color theme for the Editor
 set pyxversion=2
-
-
