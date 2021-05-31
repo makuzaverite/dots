@@ -1,17 +1,10 @@
-[directory]
-truncate_to_repo = false
 
-[directory.substitutions]
-"~/github" = "github.com"
+[line_break]
+disabled = true
 
-[gcloud]
+[jobs]
 disabled = true
 
 
 
-[nodejs]
-format = "using [$symbol$version]($style) "
 
-[package]
-format = "[$symbol$version]($style) "
-symbol = " "

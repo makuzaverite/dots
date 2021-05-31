@@ -28,3 +28,7 @@ set cmdheight=2             " Better display messages
 set shortmess+=c            " don't give |ins-completion-menu| messages.
 colorscheme blackbird       " The color theme for the Editor
 set pyxversion=2
+set foldmethod=indent       " Fold methofs
+set foldnestmax=10          " Folder max lines
+set nofoldenable            " Enable code fodleiing
+set foldlevel=2             " Set the fold level
