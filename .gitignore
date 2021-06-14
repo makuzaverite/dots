@@ -1,2 +1,2 @@
 node_modules
-veritem/.config/plugged/*
+veritem/config/nvim/plugged/
