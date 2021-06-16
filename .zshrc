@@ -70,9 +70,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git docker zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+alias air='/home/veritem/go/bin/air'
 
 # User configuration
 
@@ -106,14 +107,23 @@ alias lg="lsd -F --group-dirs=first"
 alias tree="lsd -AF --tree"
 alias pgstart='sudo service postgresql start'
 alias pgrun='sudo -u postgres psql'
+alias vim="nvim"
+alias mysqlstart="~/dev/dots/scripts/mysqlstart.sh"
+alias mysqlrun="~/dev/dots/scripts/mysqlrun.sh"
+
 eval "$(starship init zsh)"
+
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
+export PATH="/home/veritem/.local/bin:$PATH"
+
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+export PATH=$PATH:/usr/local/go/bin
 
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 # tabtab source for packages
 # uninstall by removing these lines
