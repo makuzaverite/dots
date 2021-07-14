@@ -112,7 +112,7 @@ alias mysqlstart="~/dev/dots/scripts/mysqlstart.sh"
 alias mysqlrun="~/dev/dots/scripts/mysqlrun.sh"
 alias update="~/dev/dots/scripts/update.sh"
 eval "$(starship init zsh)"
-
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
