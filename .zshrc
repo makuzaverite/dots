@@ -110,7 +110,7 @@ alias pgrun='sudo -u postgres psql'
 alias vim="nvim"
 alias mysqlstart="~/dev/dots/scripts/mysqlstart.sh"
 alias mysqlrun="~/dev/dots/scripts/mysqlrun.sh"
-
+alias update="~/dev/dots/scripts/update.sh"
 eval "$(starship init zsh)"
 
 
@@ -123,7 +123,10 @@ export PATH="/home/veritem/.local/bin:$PATH"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:/usr/local/go/bin
 
+alias golangci-lint="$(go env GOPATH)/bin/golangci-lint"
+
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
 
 # tabtab source for packages
 # uninstall by removing these lines

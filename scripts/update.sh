@@ -1,5 +1,7 @@
 #!/bin/bash
+ 
 
+brew update
 
 volta install node
 
