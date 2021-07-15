@@ -74,7 +74,8 @@ plugins=(git docker zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 alias air='/home/veritem/go/bin/air'
-
+alias gum='git pull origin main'
+alias dev='cd ~/dev'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
